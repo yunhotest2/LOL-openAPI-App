@@ -1,0 +1,2 @@
+yunho/app/lolapitest/BuildConfig.java
+ yunho.app.lolapitest.BuildConfig
