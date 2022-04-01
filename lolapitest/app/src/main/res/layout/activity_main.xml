@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="검색하기"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/accountId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="accountId:"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchBar" />
+
+    <TextView
+        android:id="@+id/profileIconId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="profileIconId:"
+        android:textSize="25sp"
+
+        app:layout_constraintStart_toStartOf="@+id/accountId"
+        app:layout_constraintTop_toBottomOf="@+id/accountId" />
+
+    <TextView
+        android:id="@+id/revisionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="revisionDate:"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/accountId"
+        app:layout_constraintTop_toBottomOf="@+id/profileIconId" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="name:"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/accountId"
+        app:layout_constraintTop_toBottomOf="@+id/revisionDate" />
+
+    <TextView
+        android:id="@+id/summonerLevel"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="summonerLevel:"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/accountId"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="id:"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/accountId"
+        app:layout_constraintTop_toBottomOf="@+id/summonerLevel" />
+
+    <TextView
+        android:id="@+id/puuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="puuid:"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="@+id/accountId"
+        app:layout_constraintTop_toBottomOf="@+id/id" />
+
+    <TextView
+        android:id="@+id/accountIdVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/accountId"
+        app:layout_constraintStart_toEndOf="@+id/accountId"
+        tools:text="fhXsvqx4tjuqt7JWGeTMUuMihXlqNwDIsPHEWwc3urIBtCc" />
+
+    <TextView
+        android:id="@+id/profileIconIdVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/profileIconId"
+        app:layout_constraintStart_toEndOf="@+id/profileIconId"
+        tools:text="1234" />
+
+    <TextView
+        android:id="@+id/revisionDateVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/revisionDate"
+        app:layout_constraintStart_toEndOf="@+id/revisionDate"
+        tools:text="1234" />
+
+    <TextView
+        android:id="@+id/nameVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/name"
+        app:layout_constraintStart_toEndOf="@+id/name"
+        tools:text="1234" />
+
+    <TextView
+        android:id="@+id/idVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/id"
+        app:layout_constraintStart_toEndOf="@+id/id"
+        tools:text="1234" />
+
+    <TextView
+        android:id="@+id/puuidVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/puuid"
+        app:layout_constraintStart_toEndOf="@+id/puuid"
+        tools:text="1234" />
+
+    <TextView
+        android:id="@+id/summonerLevelVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/summonerLevel"
+        app:layout_constraintStart_toEndOf="@+id/summonerLevel"
+        tools:text="1234" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
